@@ -36,13 +36,16 @@
       true,
       {
         "order": [
-          "static-field",
-          "instance-field",
-          "static-method",
-          "instance-method"
-        ]
+          {
+            "name": "static non-private",
+            "kinds": []
+          },
+          "constructor"
+        ],
+        "alphabetize": true
       }
     ],
+    "variable-name": [true, "check-format", "allow-leading-underscore"],
     "no-consecutive-blank-lines": false,
     "no-console": [
       true,

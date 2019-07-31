@@ -1,0 +1,6 @@
+<ng-content select="[owDropdownMenuOrigin]"></ng-content>
+<ng-container ow-dropdown-menu-options
+  *ngTemplateOutlet="actionTemplate; context:{ $implicit: items }">
+</ng-container>
+
+<ng-template #emptyTemplate></ng-template>
